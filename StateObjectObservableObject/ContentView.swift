@@ -19,6 +19,8 @@ struct ContentView: View {
             Button("Increment Counter") {
                 viewModel.incrementCounter()
             }
+            
+            RandomNumberView()
         }
     }
 }
