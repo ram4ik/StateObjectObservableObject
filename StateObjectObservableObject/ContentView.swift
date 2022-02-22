@@ -8,9 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var viewModel = CounterViewModel()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Text("Counter is: \(viewModel.count)")
+            Button("Increment Counter") {
+                viewModel.incrementCounter()
+            }
+        }
     }
 }
 

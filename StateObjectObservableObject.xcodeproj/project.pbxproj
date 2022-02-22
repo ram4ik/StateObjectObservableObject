@@ -11,6 +11,7 @@
 		9597943A27C55D8000D36B79 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9597943927C55D8000D36B79 /* ContentView.swift */; };
 		9597943C27C55D8100D36B79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9597943B27C55D8100D36B79 /* Assets.xcassets */; };
 		9597943F27C55D8100D36B79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9597943E27C55D8100D36B79 /* Preview Assets.xcassets */; };
+		9597944627C55E0600D36B79 /* CounterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9597944527C55E0600D36B79 /* CounterViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		9597943927C55D8000D36B79 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9597943B27C55D8100D36B79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9597943E27C55D8100D36B79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9597944527C55E0600D36B79 /* CounterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				9597943727C55D8000D36B79 /* StateObjectObservableObjectApp.swift */,
 				9597943927C55D8000D36B79 /* ContentView.swift */,
+				9597944527C55E0600D36B79 /* CounterViewModel.swift */,
 				9597943B27C55D8100D36B79 /* Assets.xcassets */,
 				9597943D27C55D8100D36B79 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				9597943A27C55D8000D36B79 /* ContentView.swift in Sources */,
 				9597943827C55D8000D36B79 /* StateObjectObservableObjectApp.swift in Sources */,
+				9597944627C55E0600D36B79 /* CounterViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
