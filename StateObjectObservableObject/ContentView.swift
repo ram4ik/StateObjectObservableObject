@@ -8,7 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
-    @ObservedObject var viewModel = CounterViewModel()
+    //@ObservedObject var viewModel = CounterViewModel()
+    
+    // Using @StateObject instead of @ObservableObject
+    @StateObject var viewModel = CounterViewModel()
     
     var body: some View {
         VStack {
